@@ -13,13 +13,16 @@
   padding: 20px;
   color: white;
 }
-
+.App-header-comp {
+	color: #ffffff;
+}
 .App-title {
   font-size: 1.5em;
+  margin-top: 0;
 }
 
-.App-intro {
-  font-size: large;
+.App-header-content{
+  color: #fff;
 }
 
 @keyframes App-logo-spin {
