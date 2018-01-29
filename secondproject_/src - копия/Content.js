@@ -55,10 +55,9 @@ changeInput(ev){
     }
 ///////////////////////////////////////////////////
     checkComplete(id){
-        this.setState((todos) => ({ 
-            todos: todos.map(todo => {todo.id == id ? todo.active = !todo.active : todo })    
+        this.setState((prevState) => ({ 
+            todos: prevState.todos.map(todo => {todo.id == id ? !todo.active : todo.active })    
         }))
-        console.log (this.state.todos.active);
     }
 
     render(){

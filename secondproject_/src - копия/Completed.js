@@ -27,7 +27,7 @@ class Completed extends Component {
                        <i className= "fa fa-square-o  fa-2x" aria-hidden="true"></i>
                    </span>
                    <span className="App-content-checked">
-                       Не выбранные. Для выбора (clickme)
+                       Не выбранные. Для выбора (clickmy)
                    </span>
                 </div>}
             </div>

@@ -1,0 +1,44 @@
+.App-input {
+    margin-top: 10px;
+    width: 200px;
+    padding: 5px;
+  font-size: large;
+  background-color: #e0ffff;
+}
+
+.App-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  background-color: #b0c4de;
+  height: calc(100% - 350px);
+  min-height: 150px;
+  font-weight: 600;
+}
+
+.App-content-button{
+    
+    width: 150px;
+    height:30px;
+    border-radius: 4px;
+  
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.App-content-output{
+    padding: 5px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.App-content-item {
+    background-color: #e0ffff;
+    margin: 5px auto 5px;
+    padding: 5px;
+    width:90%;
+    overflow: hidden;
+}

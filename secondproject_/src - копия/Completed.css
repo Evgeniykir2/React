@@ -1,0 +1,15 @@
+.text-red{
+    color: red;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.App-content-checked{
+    /*display: inline-block;      */
+    margin: 0 10px;
+    cursor: pointer;
+    line-height: 1.2;
+    height: 20px;
+}
